@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# About discord3301
+discord3301 is a bot that allows users to perform cryptographic operations from discord. Here's the help menu for the bot:
+`!3301 help` - Displays this help menu
+`!3301 base64-encode <string>` - Encodes the given string with base64
+`!3301 base64-decode <string>` - Decodes the given string with base64
+`!3301 hex-encode <string>` - Encodes the given string with hex
+`!3301 hex-decode <string>` - Decodes the given string with hex
+`!3301 rot <amount/all> <string>` - Decode/Encode rot (aka: Caesar/shift cipher)
+`!3301 read-qr <url>` - Read the data on a QR code at a URL
+`!3301 reverse <string>` - Reverse a string's characters
+`!3301 uppercase <string>` - Make the string uppercase
+`!3301 lowercase <string>` - Make the string lowercase
+`!3301 length <string>` - Calculate the length of a string
+`!3301 hash <algorithm>` - Hash using MD2, MD5, SHA-1, SHA-224, SHA-256, SHA-384, or SHA-512
+`!3301 hashid <string>` - Attempt to identify a hash algorithm from a string
+`!3301 hashcrack <string>` - Attempt to crack MD5 and SHA1 hashes via a rainbow table
+`!3301 get <url>` - Get source code of page (HTTP GET request)
+`!3301 forensics <audio/image> <url>` - Display information about audio or image file
 
-You can use the [editor on GitHub](https://github.com/Arinerron/cicada3301/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# How to setup
+It's actually quite simple to add the bot to your server. Just follow these steps:
+1. Visit the URL https://discordapp.com/oauth2/authorize?client_id=334227800003313674&scope=bot&permissions=261121
+2. Select the server in the dropdown that you want to add the bot to.
+3. Click `Authorize`.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Congratulations! The bot has now been set up. To test if it is working, send `!3301 help` to any channel on the server.
 
-### Markdown
+# Updating the bot
+You don't need to update it; the code is running on my server, so updates will be automatically installed (on my server) without needing your interaction. :)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Arinerron/cicada3301/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Support
+Encountered a bug? Have any questions? Thought of any ideas? No problem! Feel free to shoot me an email at me@arinerron.com or DM me on discord at @arinerron#5687
