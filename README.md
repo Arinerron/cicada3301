@@ -1,5 +1,6 @@
 # About discord3301
 discord3301 is a bot that allows users to perform cryptographic operations from discord. Here's the help menu for the bot:
+```
 `!3301 help` - Displays this help menu
 `!3301 base64-encode <string>` - Encodes the given string with base64
 `!3301 base64-decode <string>` - Decodes the given string with base64
@@ -16,6 +17,7 @@ discord3301 is a bot that allows users to perform cryptographic operations from 
 `!3301 hashcrack <string>` - Attempt to crack MD5 and SHA1 hashes via a rainbow table
 `!3301 get <url>` - Get source code of page (HTTP GET request)
 `!3301 forensics <audio/image> <url>` - Display information about audio or image file
+```
 
 # How to setup
 It's actually quite simple to add the bot to your server. Just follow these steps:
