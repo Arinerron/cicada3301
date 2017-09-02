@@ -6,12 +6,16 @@ discord3301 is a bot that allows users to perform cryptographic operations from 
 `!3301 base64-decode <string>` - Decodes the given string with base64
 `!3301 hex-encode <string>` - Encodes the given string with hex
 `!3301 hex-decode <string>` - Decodes the given string with hex
+`!3301 morse-encode <string>` - Encodes the given string to Morse code
+`!3301 morse-decode <string>` - Decodes the given string from Morse code
 `!3301 rot <amount/all> <string>` - Decode/Encode rot (aka: Caesar/shift cipher)
+`!3301 atbash <string>` - Decode/Encode atbash cipher
 `!3301 read-qr <url>` - Read the data on a QR code at a URL
 `!3301 reverse <string>` - Reverse a string's characters
 `!3301 uppercase <string>` - Make the string uppercase
 `!3301 lowercase <string>` - Make the string lowercase
 `!3301 length <string>` - Calculate the length of a string
+`!3301 solve-cryptogram <string>` - Attempts to solve cryptograms using the dictionary
 `!3301 hash <algorithm>` - Hash using MD2, MD5, SHA-1, SHA-224, SHA-256, SHA-384, or SHA-512
 `!3301 hashid <string>` - Attempt to identify a hash algorithm from a string
 `!3301 hashcrack <string>` - Attempt to crack MD5 and SHA1 hashes via a rainbow table
