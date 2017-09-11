@@ -25,7 +25,7 @@ discord3301 is a bot that allows users to perform cryptographic operations from 
 
 # How to setup
 It's actually quite simple to add the bot to your server. Just follow these steps:
-1. Visit the URL https://discordapp.com/oauth2/authorize?client_id=334227800003313674&scope=bot&permissions=261121
+1. Visit the URL [https://discordapp.com/oauth2/authorize?client_id=334227800003313674&scope=bot&permissions=201849937](https://discordapp.com/oauth2/authorize?client_id=334227800003313674&scope=bot&permissions=201849937).
 2. Select the server in the dropdown that you want to add the bot to.
 3. Click `Authorize`.
 
